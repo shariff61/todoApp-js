@@ -1,0 +1,23 @@
+body {
+  margin: 0 50px;
+}
+.container {
+  display: flex;
+  gap: 50px;
+}
+#posts {
+  width: 400px;
+  border: 2px solid red;
+}
+
+.option {
+  display: flex;
+  gap: 25px;
+  cursor: pointer;
+}
+
+#posts > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
